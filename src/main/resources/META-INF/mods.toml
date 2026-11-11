@@ -1,0 +1,35 @@
+modLoader = "javafml"
+loaderVersion = "[46,)"
+license = "MIT"
+
+[[mods]]
+modId = "tacz_sight_fov"
+version = "6.2.1"
+displayName = "TaCZ Sight FOV"
+authors = "潇雨暮朝"
+description = '''
+Iron sights, red dots, holographic sights and all other non-magnifying optics get no world-FOV zoom at all and share the same first-person model FOV/distance. The raise/aim transition is slowed with a weightier curve. Aiming pulls the gun closer by a fixed percentage of its own ADS depth, so the amount scales with each gun.
+All magnifying optical scopes keep Timeless & Classics Guns: Zero's original ADS behaviour.
+Compatible with TaCZ 1.20.1-1.2.0.
+'''
+
+[[dependencies.tacz_sight_fov]]
+    modId = "forge"
+    mandatory = true
+    versionRange = "[46,)"
+    ordering = "NONE"
+    side = "BOTH"
+
+[[dependencies.tacz_sight_fov]]
+    modId = "minecraft"
+    mandatory = true
+    versionRange = "[1.20,1.20.2)"
+    ordering = "NONE"
+    side = "BOTH"
+
+[[dependencies.tacz_sight_fov]]
+    modId = "tacz"
+    mandatory = true
+    versionRange = "[1.2.0,)"
+    ordering = "AFTER"
+    side = "CLIENT"
