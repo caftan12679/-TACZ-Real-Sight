@@ -1,6 +1,6 @@
 # TaCZ Real Ads
 
-> 由 **DeepSeek Harness** 制作 · Made with **DeepSeek Harness**
+> 由 **DeepSeek Harness** 制作 · 原作者：https://b23.tv/u6Wgfrn
 
 让 TaCZ 的瞄准手感更接近真实射击 —— 视野、抬枪节奏、枪械惯性、持枪姿态都做了调整。
 
